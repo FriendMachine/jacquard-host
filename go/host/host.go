@@ -12,8 +12,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/jbwinters/jacquard-host/go/internal/carrier"
-	"github.com/jbwinters/jacquard-host/go/protocol"
+	"github.com/FriendMachine/jacquard-host/go/internal/carrier"
+	"github.com/FriendMachine/jacquard-host/go/protocol"
 )
 
 // EvidenceSchema names the host-owned observations recorded beside Core frames.

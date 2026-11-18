@@ -26,7 +26,7 @@ The crate is not published to crates.io. Depend on it from a clone or by Git:
 
 ```toml
 [dependencies]
-jacquard-host = { git = "https://github.com/jbwinters/jacquard-host" }
+jacquard-host = { git = "https://github.com/FriendMachine/jacquard-host" }
 ```
 
 From a clone, install the pinned Core release (see [setup](../docs/SETUP.md)),

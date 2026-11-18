@@ -2,7 +2,7 @@
 
 Jacquard Host consumes the versioned Core boundary. Language semantics,
 identity, and protocol changes belong in
-[Jacquard Core](https://github.com/jbwinters/jacquard-lang).
+[Jacquard Core](https://github.com/FriendMachine/jacquard-lang).
 Read [compatibility](docs/COMPATIBILITY.md) and [limits](docs/LIMITS.md) before
 changing boundary behavior. Use synthetic data in examples and tests.
 
@@ -72,7 +72,7 @@ to make a test pass; report a mismatch against the pinned contract.
 ## Go
 
 The independent Go adapter and SDK live in `go/` as module
-`github.com/jbwinters/jacquard-host/go`; they use only the standard library and
+`github.com/FriendMachine/jacquard-host/go`; they use only the standard library and
 do not call Python or Node.js. Go 1.24+ is required.
 
 ```sh

@@ -15,7 +15,7 @@ python -m pip install .
 ```
 
 These instructions install from source. Each release also attaches its wheel
-and source archive to the [GitHub release](https://github.com/jbwinters/jacquard-host/releases/tag/jacquard-host-0.2.0)
+and source archive to the [GitHub release](https://github.com/FriendMachine/jacquard-host/releases/tag/jacquard-host-0.2.0)
 (`python -m pip install jacquard_host-0.2.0-py3-none-any.whl`); nothing is
 published to PyPI. The source archive includes the examples; the wheel includes the
 library, its typing marker, application resources, and the pinned conformance kit.
@@ -54,7 +54,7 @@ opam is not installed (initialize a first installation with
 
 ```sh
 mkdir -p .scratch
-git clone https://github.com/jbwinters/jacquard-lang.git .scratch/jacquard-core-src
+git clone https://github.com/FriendMachine/jacquard-lang.git .scratch/jacquard-core-src
 git -C .scratch/jacquard-core-src checkout --detach "$(python3 scripts/core_pin.py get release.commit)"
 cd .scratch/jacquard-core-src
 opam switch create . ocaml-base-compiler.5.1.1 -y

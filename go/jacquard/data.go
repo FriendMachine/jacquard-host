@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"unicode/utf8"
 
-	"github.com/jbwinters/jacquard-host/go/protocol"
+	"github.com/FriendMachine/jacquard-host/go/protocol"
 )
 
 // Some marks a present Option value where nil alone would be ambiguous, such

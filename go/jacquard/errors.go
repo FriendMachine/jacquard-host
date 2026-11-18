@@ -3,7 +3,7 @@ package jacquard
 import (
 	"fmt"
 
-	"github.com/jbwinters/jacquard-host/go/host"
+	"github.com/FriendMachine/jacquard-host/go/host"
 )
 
 // PreparationError reports that a program could not be checked, hashed,

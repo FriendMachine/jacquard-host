@@ -3,7 +3,7 @@ package kit
 import (
 	"testing"
 
-	"github.com/jbwinters/jacquard-host/go/protocol"
+	"github.com/FriendMachine/jacquard-host/go/protocol"
 )
 
 func TestJSStringMatchesJavaScriptCoercion(t *testing.T) {

@@ -18,7 +18,7 @@
     "check:package": "npm run build && node scripts/check-package.mjs",
     "prepack": "npm run build"
   },
-  "repository": { "type": "git", "url": "https://github.com/jbwinters/jacquard-host.git", "directory": "typescript" },
-  "bugs": { "url": "https://github.com/jbwinters/jacquard-host/issues" },
+  "repository": { "type": "git", "url": "https://github.com/FriendMachine/jacquard-host.git", "directory": "typescript" },
+  "bugs": { "url": "https://github.com/FriendMachine/jacquard-host/issues" },
   "devDependencies": { "@types/node": "22.20.5", "typescript": "7.0.2" }
 }

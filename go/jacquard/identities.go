@@ -7,7 +7,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/jbwinters/jacquard-host/go/protocol"
+	"github.com/FriendMachine/jacquard-host/go/protocol"
 )
 
 // entry is one public name and identity printed by `jacquard hash`.

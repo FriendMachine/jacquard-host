@@ -1,6 +1,6 @@
 {
   "schema": "jacquard-host-core-pin-v1",
-  "repository": "jbwinters/jacquard-lang",
+  "repository": "FriendMachine/jacquard-lang",
   "release": {
     "tag": "jacquard-core-0.3.0",
     "version": "0.3.0",

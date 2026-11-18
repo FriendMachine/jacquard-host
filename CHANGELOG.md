@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- The repository moved to the FriendMachine GitHub organization. Links and
+  package metadata now name `FriendMachine/jacquard-host` and
+  `FriendMachine/jacquard-lang`. **Breaking for Go:** the module path is now
+  `github.com/FriendMachine/jacquard-host/go`; update imports when upgrading
+  past `go/v0.2.0`, which keeps the old path.
 - Rust adapter: an independent, standard-library-only crate in `rust/`
   (`jacquard-host`, Rust 1.88+). It provides strict codecs, the session state
   machine, a bounded process carrier for `jacquard host worker`, and a `Host`
@@ -136,7 +141,7 @@ The first jacquard-host release: Python, TypeScript, and Go adapters and SDKs
 for Core's experimental `jacquard-host-v0` protocol, pinned to
 `jacquard-core-0.3.0`. Tags: `jacquard-host-0.2.0` (repository and Python/npm
 assets) and `go/v0.2.0` (Go module). Packages are attached to the
-[GitHub release](https://github.com/jbwinters/jacquard-host/releases/tag/jacquard-host-0.2.0);
+[GitHub release](https://github.com/FriendMachine/jacquard-host/releases/tag/jacquard-host-0.2.0);
 nothing is published to a package registry. Earlier work was never tagged, so
 this entry covers the repository's whole history.
 

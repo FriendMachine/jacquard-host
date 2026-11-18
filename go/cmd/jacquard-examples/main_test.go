@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jbwinters/jacquard-host/go/host"
+	"github.com/FriendMachine/jacquard-host/go/host"
 )
 
 func TestLiveAllFourProjectsRunAsCommands(t *testing.T) {

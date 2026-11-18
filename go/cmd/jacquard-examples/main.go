@@ -18,9 +18,9 @@ import (
 	"path/filepath"
 	"slices"
 
-	"github.com/jbwinters/jacquard-host/go/examples"
-	"github.com/jbwinters/jacquard-host/go/host"
-	"github.com/jbwinters/jacquard-host/go/jacquard"
+	"github.com/FriendMachine/jacquard-host/go/examples"
+	"github.com/FriendMachine/jacquard-host/go/host"
+	"github.com/FriendMachine/jacquard-host/go/jacquard"
 )
 
 func main() {
