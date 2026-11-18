@@ -27,9 +27,12 @@ Order total 35: shipping 5
 Order total 75: shipping 0
 ```
 
-In another module, `go get github.com/jbwinters/jacquard-host/go@v0.2.0`. The
+In another module, `go get github.com/FriendMachine/jacquard-host/go`. The
 module lives in the repository's `go/` directory, so its versions are the
-`go/vX.Y.Z` tags.
+`go/vX.Y.Z` tags. The module path changed when the repository moved to the
+FriendMachine organization: `v0.2.0` was published as
+`github.com/jbwinters/jacquard-host/go` and must be fetched under that path;
+later versions use the path above.
 
 ## Call a checked function
 

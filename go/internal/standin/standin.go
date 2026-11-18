@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jbwinters/jacquard-host/go/kit"
-	"github.com/jbwinters/jacquard-host/go/protocol"
+	"github.com/FriendMachine/jacquard-host/go/kit"
+	"github.com/FriendMachine/jacquard-host/go/protocol"
 )
 
 // Variables naming the stand-in behaviour in the child environment.

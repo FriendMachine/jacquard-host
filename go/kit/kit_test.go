@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jbwinters/jacquard-host/go/internal/standin"
-	"github.com/jbwinters/jacquard-host/go/kit"
-	"github.com/jbwinters/jacquard-host/go/protocol"
+	"github.com/FriendMachine/jacquard-host/go/internal/standin"
+	"github.com/FriendMachine/jacquard-host/go/kit"
+	"github.com/FriendMachine/jacquard-host/go/protocol"
 )
 
 func TestMain(m *testing.M) {

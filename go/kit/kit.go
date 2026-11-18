@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jbwinters/jacquard-host/go/internal/carrier"
-	"github.com/jbwinters/jacquard-host/go/protocol"
+	"github.com/FriendMachine/jacquard-host/go/internal/carrier"
+	"github.com/FriendMachine/jacquard-host/go/protocol"
 )
 
 //go:embed data/host-protocol-v0

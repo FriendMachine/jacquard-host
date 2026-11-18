@@ -11,7 +11,7 @@
     <Description>An independent .NET adapter for Jacquard Core's experimental jacquard-host-v0 protocol.</Description>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/jbwinters/jacquard-host</RepositoryUrl>
+    <RepositoryUrl>https://github.com/FriendMachine/jacquard-host</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

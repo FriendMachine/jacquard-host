@@ -12,8 +12,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/jbwinters/jacquard-host/go/host"
-	"github.com/jbwinters/jacquard-host/go/protocol"
+	"github.com/FriendMachine/jacquard-host/go/host"
+	"github.com/FriendMachine/jacquard-host/go/protocol"
 )
 
 type liveSuite struct {

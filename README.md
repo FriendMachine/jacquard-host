@@ -94,7 +94,7 @@ await Core's structured host interface exporter.
 
 ## Compatibility and scope
 
-[Jacquard Core](https://github.com/jbwinters/jacquard-lang) owns language
+[Jacquard Core](https://github.com/FriendMachine/jacquard-lang) owns language
 semantics, checked effects, canonical identities, grants, and the host contract.
 This repository consumes that contract and owns the Python adapter, resource
 lifetimes, host services, and integration evidence.

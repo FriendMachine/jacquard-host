@@ -21,10 +21,10 @@ classifiers = [
 ]
 
 [project.urls]
-Repository = "https://github.com/jbwinters/jacquard-host"
-Issues = "https://github.com/jbwinters/jacquard-host/issues"
-Documentation = "https://github.com/jbwinters/jacquard-host/blob/main/docs/PYTHON-SDK.md"
-Changelog = "https://github.com/jbwinters/jacquard-host/blob/main/CHANGELOG.md"
+Repository = "https://github.com/FriendMachine/jacquard-host"
+Issues = "https://github.com/FriendMachine/jacquard-host/issues"
+Documentation = "https://github.com/FriendMachine/jacquard-host/blob/main/docs/PYTHON-SDK.md"
+Changelog = "https://github.com/FriendMachine/jacquard-host/blob/main/CHANGELOG.md"
 
 [project.scripts]
 jacquard-host-kit = "jacquard_host.kit:main"

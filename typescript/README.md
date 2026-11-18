@@ -11,7 +11,7 @@ Windows support are not claimed.
 
 ## Install from the repository
 
-Build and configure the pinned Core worker using [setup](https://github.com/jbwinters/jacquard-host/blob/main/docs/SETUP.md).
+Build and configure the pinned Core worker using [setup](https://github.com/FriendMachine/jacquard-host/blob/main/docs/SETUP.md).
 Then, from the repository root:
 
 ```sh
@@ -36,7 +36,7 @@ npm pack
 ```
 
 Each release also attaches the tarball to its
-[GitHub release](https://github.com/jbwinters/jacquard-host/releases/tag/jacquard-host-0.2.0).
+[GitHub release](https://github.com/FriendMachine/jacquard-host/releases/tag/jacquard-host-0.2.0).
 These commands do not assume an npm registry release. TypeScript applications
 need their usual development tools, `typescript` and `@types/node`, with Node's
 declarations enabled (for example `"types": ["node"]` in `tsconfig.json`). Runtime
@@ -59,7 +59,7 @@ console.log(run.unwrap(), run.render());
 await run.save('.scratch/shipping.json');
 ```
 
-For the shipping rule, use the [quickstart source](https://github.com/jbwinters/jacquard-host/blob/main/examples/quickstart/rules.jac).
+For the shipping rule, use the [quickstart source](https://github.com/FriendMachine/jacquard-host/blob/main/examples/quickstart/rules.jac).
 `prepare` accepts one path or an ordered array of `.jac` paths (or `.jqd` paths).
 It uses public Core check/hash/run commands and verifies a cached store keyed
 by source bytes, executable bytes, all prelude contents, protocol, and preparation
@@ -239,6 +239,6 @@ four installed examples. No Python process participates in these checks.
 
 Low-level APIs are exported from `jacquard-host` and `jacquard-host/protocol`;
 the pinned kit and replayer are in `jacquard-host/kit`. See
-[compatibility](https://github.com/jbwinters/jacquard-host/blob/main/docs/COMPATIBILITY.md), [limits](https://github.com/jbwinters/jacquard-host/blob/main/docs/LIMITS.md), and
-[evidence](https://github.com/jbwinters/jacquard-host/blob/main/docs/EVIDENCE.md). Apache 2.0; upstream attribution is included in
+[compatibility](https://github.com/FriendMachine/jacquard-host/blob/main/docs/COMPATIBILITY.md), [limits](https://github.com/FriendMachine/jacquard-host/blob/main/docs/LIMITS.md), and
+[evidence](https://github.com/FriendMachine/jacquard-host/blob/main/docs/EVIDENCE.md). Apache 2.0; upstream attribution is included in
 the package's LICENSE and NOTICE.

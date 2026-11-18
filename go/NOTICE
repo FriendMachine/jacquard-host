@@ -2,7 +2,7 @@ Jacquard Host
 Copyright 2026 Jacquard Host contributors
 
 This product includes conformance artifacts from Jacquard Core,
-https://github.com/jbwinters/jacquard-lang, licensed under Apache License 2.0.
+https://github.com/FriendMachine/jacquard-lang, licensed under Apache License 2.0.
 The artifacts under src/jacquard_host/data/conformance/host-protocol-v0/,
 and their byte-identical copies under go/kit/data/host-protocol-v0/,
 rust/kit/host-protocol-v0/,

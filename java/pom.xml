@@ -11,7 +11,7 @@
 
   <name>Jacquard Host for Java</name>
   <description>Independent Java adapter for Jacquard Core's experimental jacquard-host-v0 protocol</description>
-  <url>https://github.com/jbwinters/jacquard-host</url>
+  <url>https://github.com/FriendMachine/jacquard-host</url>
   <licenses>
     <license>
       <name>Apache-2.0</name>

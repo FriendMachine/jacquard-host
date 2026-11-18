@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jbwinters/jacquard-host/go/host"
-	"github.com/jbwinters/jacquard-host/go/kit"
-	"github.com/jbwinters/jacquard-host/go/protocol"
+	"github.com/FriendMachine/jacquard-host/go/host"
+	"github.com/FriendMachine/jacquard-host/go/kit"
+	"github.com/FriendMachine/jacquard-host/go/protocol"
 )
 
 type live struct {

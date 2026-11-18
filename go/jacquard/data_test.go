@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jbwinters/jacquard-host/go/host"
-	"github.com/jbwinters/jacquard-host/go/protocol"
+	"github.com/FriendMachine/jacquard-host/go/host"
+	"github.com/FriendMachine/jacquard-host/go/protocol"
 )
 
 func id(letter string) protocol.Hash { return protocol.Hash(strings.Repeat(letter, 64)) }

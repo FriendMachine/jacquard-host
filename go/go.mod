@@ -1,3 +1,3 @@
-module github.com/jbwinters/jacquard-host/go
+module github.com/FriendMachine/jacquard-host/go
 
 go 1.24

@@ -17,8 +17,8 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/jbwinters/jacquard-host/go/host"
-	"github.com/jbwinters/jacquard-host/go/jacquard"
+	"github.com/FriendMachine/jacquard-host/go/host"
+	"github.com/FriendMachine/jacquard-host/go/jacquard"
 )
 
 // Files holds a copy of each project's rules and synthetic input, checked

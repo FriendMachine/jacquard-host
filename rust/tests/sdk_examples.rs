@@ -113,10 +113,19 @@ fn live_partial_completion_faults_recover_explicitly_across_restart() {
     }
 }
 
-/// The example binary `cargo test` builds beside this test's binary.
+/// The example binary `cargo test` builds. Cargo puts it in an `examples`
+/// directory above this test's binary; how far above depends on the build
+/// layout of the Cargo version in use.
 fn example_binary() -> PathBuf {
-    let deps = std::env::current_exe().unwrap().parent().unwrap().to_owned();
-    deps.parent().unwrap().join("examples").join(format!("jacquard-examples{}", std::env::consts::EXE_SUFFIX))
+    let name = format!("jacquard-examples{}", std::env::consts::EXE_SUFFIX);
+    let test_binary = std::env::current_exe().unwrap();
+    for directory in test_binary.ancestors().skip(1) {
+        let candidate = directory.join("examples").join(&name);
+        if candidate.is_file() {
+            return candidate;
+        }
+    }
+    panic!("no examples/{name} above {}", test_binary.display())
 }
 
 #[test]
